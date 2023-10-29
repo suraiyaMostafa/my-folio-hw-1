@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+
+.container{
+    width: 1170px;
+    margin: auto;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.button{
+    background-color:#cfc91d ;
+    font-size:16px ;
+    font-weight:800 ;
+    color:black ;
+    padding: 18px 42px;
+    display: inline-block;
+   
+}
+.heading{
+    text-align: center;
+    padding: 79px 0;
+}
+.heading h2{
+
+    color:  #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    
+}
+.aboutcard h3{
+    color:  #7e8287;
+    
+
+}
+.aboutcard p{
+
+color: #c1c3c5;
+padding:  32px 0 ;
+
+}
+.heading p{
+color: #c1c3c5;
+
+}
+.heading p1{
+    color:  #c1c3c5;
+    font-size: 16px;
+    font-weight: 400;
+}
+.heading p2{
+    color:#c1c3c5 ;
+    font-size:16px ;
+    font-weight:400 ;
+}
+.heading p3{
+    color:#c1c3c5 ;
+    font-size:23px ;
+    font-weight:800 ;
+}
+.container p5{
+    color: #c1c3c5;
+    font-size: 16px;
+    
+
+}
+.work{
+
+     text-transform: uppercase;
+    color:  #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    height: 1270px;
+    padding: 79px 0;
+    text-align: center;
+    align-items: center;
+}
+
+  
+
+/* NAV START */
+nav {
+    background-color: #02918c;
+    
+    
+}
+nav .row{
+
+    
+    align-items: center;
+}
+
+    
+nav.logo{
+    width: 30%;
+}
+
+  nav.menu{
+    width: 70%;
+
+  }  
+
+
+nav .menu li{
+    display:inline-block;
+    
+    
+}
+
+nav .menu li a{
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+/* NAV END */
+/* BORDER START  */
+
+
+#border{
+    background-image: url(../image/MYFOLIO.jpg);
+    height: 730px;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+#border .row{
+    align-items: center;
+    height: 730px;
+}
+
+
+
+.border-cntn{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    
+
+}
+.border-cntn h3{
+    color: hsl(0, 22%, 90%);
+    font-weight: 400;
+    font-size:30px ;
+}
+.border-cntn h1{
+    color: white;
+    font-size:64px ;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing:27px ;
+}
+.border-cntn p1{
+    color: white;
+    font-size:18px ;
+    font-weight:400 ;
+}
+.border-cntn img{
+
+    margin: 50px 0;
+}
+
+
+
+/* BORDER END */
+/* ABOUT START  */
+
+  #about{
+
+    padding: 69px 0;
+   
+  }
+  
+
+
+    .aboutcard{
+        
+        width: 25%;
+        padding: 69px 0;
+        border-right: 1px solid #c9cbcd;
+        align-items: center;
+        text-align: center;
+
+        
+    }
+    #about.container{
+        width: 1275px;
+        margin: auto;
+    }
+
+
+
+/* ABOUT END */
+/* SERVICE START */
+#service{
+background-image: url(../image/LAPTOP.png);
+    height: 730px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.service-ctn h2{
+    color:#02918c;
+    font-size:46px;
+    font-weight: 800;
+    padding: 66px 0;
+
+
+}
+.service-ctn h3{
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 400;
+}
+.service-card{
+    width: 50%;
+    padding: 42px 0;
+    align-items: left;
+    text-align:left;
+    
+}
+.service-card p{
+    color: #7e8287;
+    font-size:16px ;
+    font-weight:400 ;
+}
+
+
+/* SERVICE STOP */
+/*  WORK START*/
+
+.work p1{
+    color: #7e8287;
+    padding: 107px 0;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+
+.row .img-card{
+    width: 25% ;
+    background-position: center;
+    background-size: cover;
+}
+    
+   .contract{
+    align-items: center;
+    text-align: center;
+    padding: 79px 0;
+   }
+
+
+/* WORK STOP */
+.start{
+    background-color:#0b0b0b;
+    height: 1280px;
+    color: #7e8287;
+    text-align: center;
+    padding: 72px ;
+
+}
+.start p1{
+    padding: 72px 0;
+    border-bottom: 1px solid #7e8287;
+    display: block;
+    font-size:16px ;
+    font-weight:400 ;
+}
+
+
